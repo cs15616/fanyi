@@ -1,0 +1,17 @@
+{
+  "name": "wt-translate-proxy",
+  "version": "1.0.0",
+  "description": "WhatsApp / Telegram 网页端中英翻译代理（免 API Key，部署到 render.com）",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
